@@ -132,8 +132,9 @@ def runLucy():
 
     # Identity
     if 'who are you' in query:
-        print("I am Lucy, your personal assistant! I was created by Miss Sanchayeeta Saha in the year 2022.")
-        speak("I am Lucy, your personal assistant! I was created by Miss Sanchayeeta Saha in the year 2022. ")
+        print("I am Lucy, your personal assistant! I was created by Miss Sanchayeeta Saha in the year 2022. As of now, I am programmed to open a few websites and local files, search on Google, fetch info from Wikipedia, give you the present date & time, enlighten you on the current weather conditions around the world, read out today's news headlines from BBC, answer some geographical as well as computational questions, locate a place in Google Maps, take screenshots, play Rock-Paper-Scissor with you and entertain you with one-liner jokes.")
+
+        speak("I am Lucy, your personal assistant! I was created by Miss Sanchayeeta Saha in the year 2022. As of now, I am programmed to open a few websites and local files, search on Google, fetch info from Wikipedia, give you the present date and time, enlighten you on the current weather conditions around the world, read out today's news headlines from BBC, answer some geographical as well as computational questions, locate a place in Google Maps, take screenshots, play Rock-Paper-Scissor with you and entertain you with one-liner jokes.")
 
     elif 'who made you' in query or 'who created you' in query:
         print("I was created by Miss Sanchayeeta Saha.")
